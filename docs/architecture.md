@@ -72,10 +72,16 @@ Key principles include:
 
 ### RAP Approach
 
-The application is developed using:
+### RAP Approach
 
-- Data modeling with CDS
-- Behavior definition
-- Service exposure
-- Fiori Elements UI
+The application follows the SAP RESTful Application Programming Model (RAP) to implement transactional business applications.
+
+The development approach includes:
+
+* Data modeling with CDS view entities
+* Business behavior definition and implementation
+* Transactional processing through RAP
+* Service exposure using OData V4
+* Fiori Elements for metadata-driven user interfaces
+
 
