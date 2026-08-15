@@ -57,7 +57,6 @@ The architecture is designed to provide a clean, cloud-ready, and extensible fou
 
 ### Clean Core
 
-### Clean Core
 
 The application follows SAP Clean Core principles to ensure that business logic remains upgrade-safe, maintainable, and extensible.
 
@@ -72,7 +71,6 @@ Key principles include:
 
 ### RAP Approach
 
-### RAP Approach
 
 The application follows the SAP RESTful Application Programming Model (RAP) to implement transactional business applications.
 
