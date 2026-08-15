@@ -3,7 +3,6 @@
 
 ## Overview
 
-## Overview
 
 This project follows a modern SAP S/4HANA development architecture based on SAP Clean Core principles.
 
