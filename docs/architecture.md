@@ -57,11 +57,17 @@ The architecture is designed to provide a clean, cloud-ready, and extensible fou
 
 ### Clean Core
 
-The application follows SAP Clean Core principles:
+### Clean Core
 
-- No modification of SAP standard objects
-- Use released APIs
-- Cloud-ready development
+The application follows SAP Clean Core principles to ensure that business logic remains upgrade-safe, maintainable, and extensible.
+
+Key principles include:
+
+* Avoid modifications to SAP standard objects
+* Use released SAP APIs and extension points
+* Keep custom development isolated from the SAP standard
+* Prefer cloud-ready and upgrade-stable development approaches
+
 
 
 ### RAP Approach
