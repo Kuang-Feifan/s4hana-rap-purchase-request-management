@@ -3,13 +3,20 @@
 
 ## Overview
 
-This project follows the modern SAP development architecture based on:
+## Overview
 
-- ABAP Cloud
-- CDS
-- RAP
-- OData V4
-- Fiori Elements
+This project follows a modern SAP S/4HANA development architecture based on SAP Clean Core principles.
+
+The core application architecture is built using:
+
+* ABAP Cloud
+* Core Data Services (CDS)
+* RESTful Application Programming Model (RAP)
+* OData V4
+* Fiori Elements
+
+The architecture is designed to provide a clean, cloud-ready, and extensible foundation for integrating AI capabilities into SAP business processes.
+
 
 
 ## Architecture Diagram
