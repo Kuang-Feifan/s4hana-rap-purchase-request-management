@@ -19,36 +19,25 @@ The architecture is designed to provide a clean, cloud-ready, and extensible fou
 
 
 ## Architecture Diagram
-+-----------------------------+
-|      Fiori Elements         |
-|        UI Layer             |
-+-----------------------------+
-              |
-              | OData V4
-              v
-+-----------------------------+
-|   RAP Business Object       |
-|     Application Layer       |
-+-----------------------------+
-              |
-              v
-+-----------------------------+
-|       CDS View Entity       |
-|       Data Model Layer      |
-+-----------------------------+
-              |
-              v
-+-----------------------------+
-|        S/4HANA Data         |
-|      Persistence Layer      |
-+-----------------------------+
 
+```mermaid
+flowchart TD
+    UI["Fiori Elements<br/>UI Layer"]
+    API["OData V4<br/>Service Layer"]
+    RAP["RAP Business Object<br/>Application Layer"]
+    CDS["CDS View Entities<br/>Data Model Layer"]
+    DB["S/4HANA Database<br/>Persistence Layer"]
 
-        AI Integration Layer
-+-----------------------------+
-|     AI-enabled Services     |
-|   AI / LLM Integration      |
-+-----------------------------+
+    UI --> API
+    API --> RAP
+    RAP --> CDS
+    CDS --> DB
+
+    AI["AI Integration Layer<br/>AI-enabled Services"]
+
+    RAP -.-> AI
+```
+
 
 
 ## Development Principles
